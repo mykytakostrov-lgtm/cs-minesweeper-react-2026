@@ -1,0 +1,53 @@
+.appWrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
+  padding: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gameContainer {
+  background-color: #cfd8dc;
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+  border-right: 4px solid #37474f;
+  border-bottom: 4px solid #37474f;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55);
+}
+
+.topControls {
+  margin-bottom: 12px;
+}
+
+.difficultyGroup {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.modeBtn {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #cfd8dc;
+  color: #1e293b;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #37474f;
+  border-bottom: 2px solid #37474f;
+  cursor: pointer;
+}
+
+.modeBtnActive {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  border-top: 2px solid #37474f;
+  border-left: 2px solid #37474f;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
