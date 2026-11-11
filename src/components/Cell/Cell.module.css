@@ -1,0 +1,57 @@
+.cell {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  user-select: none;
+}
+
+.closed {
+  background-color: #cfd8dc;
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #37474f;
+  border-bottom: 3px solid #37474f;
+  cursor: pointer;
+}
+
+.closed:hover {
+  background-color: #dce4e8;
+}
+
+.opened {
+  background-color: #e2e8f0;
+  border: 1px solid #94a3b8;
+  cursor: default;
+}
+
+.flagged {
+  background-color: #cfd8dc;
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #37474f;
+  border-bottom: 3px solid #37474f;
+  cursor: pointer;
+}
+
+.mine {
+  background-color: #cbd5e1;
+  border: 1px solid #94a3b8;
+}
+
+.mineExploded {
+  background-color: #ef4444;
+  border: 1px solid #991b1b;
+}
+
+.num1 { color: #1d4ed8; }
+.num2 { color: #15803d; }
+.num3 { color: #dc2626; }
+.num4 { color: #6d28d9; }
+.num5 { color: #991b1b; }
+.num6 { color: #0f766e; }
+.num7 { color: #111827; }
+.num8 { color: #475569; }
